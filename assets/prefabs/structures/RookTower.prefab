@@ -1,8 +1,7 @@
 {
     "StructureTemplate": {
         "type": "Sample:RookTower",
-        "front": "FRONT",
-        "top": "TOP"
+        "front": "FRONT"
     },
     "SpawnBlockRegions": {
         "regionsToFill": [
@@ -159,5 +158,13 @@
             { "blockType": "engine:air", "region": { "min": [0, 13, 1], "size": [1, 1, 1]}},
             { "blockType": "engine:air", "region": { "min": [2, 13, 1], "size": [1, 1, 1]}}
         ]
-    }
+    },
+    "parent" : "engine:iconItem",
+    "DisplayName" : {
+        "name" : "A Rook Tower"
+    },
+    "Item" : {
+        "icon" : "engine:items#whiteRecipe"
+    },
+    "SpawnStructureAction": {}
 }

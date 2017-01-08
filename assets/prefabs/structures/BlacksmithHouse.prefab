@@ -58,5 +58,13 @@
             { "blockType": "engine:air", "region": { "min": [-5, 2, -1], "size": [4, 2, 1]}},
             { "blockType": "engine:air", "region": { "min": [-4, 4, -1], "size": [2, 1, 1]}}
         ]
-    }
+    },
+    "parent" : "engine:iconItem",
+    "DisplayName" : {
+        "name" : "A blacksmith's house."
+    },
+    "Item" : {
+        "icon" : "engine:items#whiteRecipe"
+    },
+    "SpawnStructureAction": {}
 }
