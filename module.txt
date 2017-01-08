@@ -1,0 +1,9 @@
+{
+    "id" : "SampleTemplates",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "Mandar Juvekar",
+    "displayName" : "SampleTemplates",
+    "description" : "Sample structure templates for Terasology",
+    "dependencies" : [{"id": "Core", "minVersion": "1.0.0"}, {"id":"StructureTemplates", "minVersion": "0.1.0"}],
+    "serverSideOnly" : false
+}
